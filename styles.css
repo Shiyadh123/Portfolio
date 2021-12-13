@@ -1,7 +1,6 @@
 /* header */
 #header .collapse{
     margin: auto;
-    
 }
 
 /* about */
@@ -17,37 +16,61 @@
      width:300px;
 }
 
-
 /* skills */
 #skills{
     padding: 50px 70px;
 }
 #skills .card{
-    padding:  10px 20px;
+    padding:  10px 20px 10px 25px;
     border-radius: 12px;
     margin-top: 10px;
-    box-shadow:0 0  6px  rgba(0, 0, 0, 0.2);
+    box-shadow:0 0  10px  rgba(0, 0, 0, 0.2);
+}
+#skills h4{
+    margin-bottom: 20px;
+}
+#skills .skill{
+    margin-bottom: 8px;
 }
 #skills .col-2{
     font-size: 25px;
 }
+#skills .col-10{
+    font-size: 18px;
+}
+
 
 /* education */
 #education{
     background-color: #8E806A;
     padding: 50px 50px 0 50px;
-    height: 400px;
+    height: 500px;
 }
 #education .card{
      text-align: center;
      max-width: 400px;
      margin: auto;
 }
-#education .carousel-item{
-
+#education .college{
+     font-size: 25px;
+     font-weight: 700;
 }
-
-
+#education .degree{
+    font-size: 20px;
+    font-weight: 600;
+}
+#education .spec{
+    font-size: 17px;
+    font-weight: 500;
+}
+#education .year{
+    font-size: 13px;
+    font-weight: 400;
+}
+#education .grade{
+    font-size: 16px;
+    font-weight: 550;
+}
 
 /* projects */
 #projects{
@@ -57,34 +80,63 @@
 #projects .card{
      border-radius: 10px;
      padding: 0;
+     box-shadow:0 0  10px  rgba(0, 0, 0, 0.2);
 }
 #projects img{
     border-radius: 10px 10px 0 0;
     margin: 0;
 }
 #projects .project-desc{
-     padding: 15px 15px 10px 15px;
+     padding: 15px 20px 20px 20px;
 }
-
-
+#projects h6{
+     font-size: 20px;
+     font-weight: 650;
+}
+#projects .col-6{
+  padding: 0;
+}
+#projects .btn{
+    width: 120px;
+    margin-left: 15px;
+}
 
 /* experience */
 #experience{
-    background-color: #98BAE7;
+    background-color: #d7dbe0;
     padding: 50px 50px;
 }
 #experience .card{
     text-align: center;
     border-radius: 10px;
+    box-shadow:0 0  10px  rgba(0, 0, 0, 0.2);
 }
 #experience img{
-    margin: auto;
-    height:200px;
-    width: 200px;
-    border-radius: 100px;
-
+    margin: 0 auto;
+    height:150px;
+    width: 160px;
+    border-radius: 80px;
 }
-
+#experience p{
+   margin: 0;
+}
+#experience .exp{
+    padding: 0 20px 15px 20px;
+ }
+#experience .role{
+    font-size: 20px;
+    font-weight: 700;
+}
+#experience .company{
+    font-size: 17px;
+    font-weight: 620;
+}
+#experience .date{
+    font-size: 14px;
+}
+#experience .desc{
+    padding-top:8px ;
+}
 
 /* contact */
 #contact{
@@ -97,8 +149,9 @@
 #contact p{
     font-size: 13px;
 }
- 
-
+#contact .col-6{
+    text-align: center;
+}
 
 /* footer */
 #footer{
@@ -111,7 +164,8 @@
 }
 
 
-@media (max-width:440px){
+@media (max-width:480px){
+    /* about */
 #about {
     padding: 100px  10px 5px 10px;
 }
@@ -122,16 +176,41 @@
    
 /* skills */
 #skills{
-    padding: 50px 20px;
+    padding: 30px 8% 20px 8%;
 }
 #skills .card{
     padding:  10px 20px;
     margin-top: 20px;
 }
 
+/* education */
+#education{
+    padding: 1px ;
+    height: 500px;
+}
+#education .card{
+     max-width: 400px;
+}
+
+/* projects */
+#projects{
+    padding: 30px 8% 20px 8%;
+}
+#projects .card{
+    margin-top:20px;
+}
+
+/* experience */
+#experience{
+    padding: 30px 8% 20px 8%;
+}
+#experience .card{
+    margin-top:20px;
+}
+
 /* contact */
 #contact{
-    padding: 20px 10px 10px 10px;
+    padding: 20px 18% 10px 18%;
 }
 
 /* footer */
