@@ -43,13 +43,23 @@
 /* education */
 #education{
     background-color: #8E806A;
-    padding: 50px 50px 0 50px;
-    height: 500px;
+    padding: 30px 50px 0 50px;
+    height: 450px;
 }
 #education .card{
      text-align: center;
-     max-width: 400px;
+     max-width: 450px;
      margin: auto;
+}
+#education  .carousel-control-prev{
+
+}
+#education  .carousel-control-next{
+
+}
+#education  .carousel-indicators{
+    position: absolute;
+    top:330px;
 }
 #education .college{
      font-size: 25px;
@@ -185,11 +195,26 @@
 
 /* education */
 #education{
-    padding: 1px ;
-    height: 500px;
+    padding: 30px 8% 20px 8%;
+    height: 450px;
 }
 #education .card{
-     max-width: 400px;
+     max-width: 300px;
+}
+#education  .carousel-control-prev{
+    position: absolute;
+    left:-35px;
+    top:0;
+}
+#education  .carousel-control-next{
+    position: absolute;
+    left:300px;
+    top:0;
+
+}
+#education  .carousel-indicators{
+    position: absolute;
+    top:330px;
 }
 
 /* projects */
