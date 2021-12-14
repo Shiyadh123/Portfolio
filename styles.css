@@ -237,10 +237,12 @@ h2{
 
     /* header */
 #header .navbar{
+    position: fixed;
+    top:0;
     height: 60px;
 }
 #header .navbar-brand{
-     font-weight: 550;
+     font-weight: 750;
     font-size: 20px;
 }
 #header p{
