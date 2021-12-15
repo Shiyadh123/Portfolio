@@ -47,10 +47,13 @@ h2{
 #about h4{
     font-size: 23px;
     font-weight: 600;
+    line-height: 1.2;
+
 }
 #about h6{
     font-size: 15px;
     font-weight: 600;
+    line-height: 1.2;
 }
 #about a{
    text-decoration: none;
