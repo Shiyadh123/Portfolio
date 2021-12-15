@@ -3,6 +3,9 @@
     height: 60px;
     font-family:  'Varela Round', sans-serif;
 }
+#header img{
+    height: 22px;
+}
 #header .collapse{
     margin: auto;
 }
@@ -257,6 +260,9 @@ h2{
     top:0;
     height: 60px;
      
+}
+#header img{
+    height: 19px;
 }
 #header .navbar-brand{
      font-weight: 750;
