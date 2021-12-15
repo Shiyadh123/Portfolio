@@ -254,8 +254,9 @@ h2{
     /* header */
 #header .navbar{
     position: fixed;
-    top:0;
+    top:10;
     height: 60px;
+    z-index: 99;
 }
 #header .navbar-brand{
      font-weight: 750;
