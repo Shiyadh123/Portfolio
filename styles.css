@@ -97,12 +97,16 @@ h2{
 #education{
     padding: 20px 50px 0 50px;
     height: 450px;
+    /* background-color: #97BFB4; */
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #97BFB4 50%, #FFFFFF 100%);
 }
 #education .card{
     text-align: center;
     max-width: 400px;
     height:300px ;
     margin: auto;
+    box-shadow:0 0  15px  rgba(0, 0, 0, 0.3);
 }
 #education  .carousel-control-prev-icon{
     background-color: #5E454B;
@@ -148,7 +152,7 @@ h2{
      padding: 0;
      box-shadow:0 0  15px  rgba(0, 0, 0, 0.3);
      background-color: #FFFFFF;
-     background-image: linear-gradient(180deg, #FFFFFF 40%, #D5D5D5 100%);
+     background-image: linear-gradient(180deg, #FFFFFF 40%, #FFFCDC 100%);
      margin-top: 20px;
 }
 #projects img{
