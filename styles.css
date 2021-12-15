@@ -37,7 +37,7 @@ h2{
     font-family: 'Montserrat', sans-serif;
 }
 #about span{
-    color:rgb(44, 245, 18);
+    color:red;
 }
 #about h1{
     font-size: 50px;
@@ -187,8 +187,6 @@ h2{
     border-radius: 20px;
     box-shadow:0 0  15px  rgba(0, 0, 0, 0.3);
     margin-top: 20px;
-    background-color: #FFFFFF;
-    background-image: linear-gradient(180deg, #FFFFFF 40%, #EAEAEA 100%);
 }
 #experience img{
     margin: 0 auto;
